@@ -14,7 +14,6 @@ from sklearn.metrics import accuracy_score
 
 
 def main_function():
-    # Use a breakpoint in the code line below to debug your script.
     dataset = pd.read_csv('G:/Users/tinys/PycharmProjects/Workshop2/Iris.csv')
     names = ['SepalLengthCm', 'SepalWidthCm', 'PetalLengthCm', 'PetalWidthCm', 'Species']
     dataset.head()
@@ -68,7 +67,6 @@ def show_graph(y_pred, y_test):
     plt.show()
 
 
-# Press the green button in the gutter to run the script.
 if __name__ == '__main__':
     main_function()
 
